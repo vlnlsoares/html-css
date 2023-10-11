@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: rgb(205, 50, 50);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (nao semantica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag strong (alem do negrito, estiste a
+        semantica)</p>
+    <!-- Od dois jeitos fazem o mesmo negrito, porem a teg <b> é somente visivel, ja o <strong> é sentido semantico (exemplo de texto em destaque na frase)-->
+    <h2>Itálico / Enfase</h2>
+    <p>Nesta frase, temos um <i>termo em Italico</i> usando a teg I (nao semantico)</p>
+    <!-- forma facil de fazer: selecione a frase que quer abrir uma tag, aperte control + shift + p, colocar a tag sem <> e enter. -->
+    <p>Nesta frase temos um <em>termo em Enfase</em> usando a Tag em (semantica)</p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar tambem <mark style="background-color: rgb(255, 0, 208);">um texto marcado</mark> usando a tag MARK.
+    </p><!-- Para mudar a cor, somente atravez do css, (MARK é o significado, eu quero ele marcado)-->
+    <!-- Isso ("style="background-color: blue;") é um parametro de css.-->
+    <p>E no outro Paragrafo, temos <mark>outro texto marcado no final.</mark></p>
+    <!-- Para ele herdar a coloração do outro mark, precisa ser feito atravez do css na tag <head>.-->
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo.</p>
+    <!-- Tag <big> esta obsoleta. no lugar usa-se -->
+    <!--a Tag <small> é usada como semantica de texto pequeno.-->
+        <h2>Texto Deletado</h2>
+        <p>Podemos marcar <del></del>um texto como excluido</del> para indicar que ele deve ser lido mas nao considerado.</p>
+        <h2>Texto Inserido</h2>
+        <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois.</p>
+        <p>Existe tambem o <u>sublinhado</u> com a TAG &lt;u&gt; (nao semantica)</p>
+        <h2>Texto Sobrescrito</h2>
+        <p>Para inserir coisas do tipo X<sup>20</sup>+3</p>
+        <h2>Texto Subscrito</h2>
+        <p>para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    position: center;
+}
+
+a {
+    position: center;
+}

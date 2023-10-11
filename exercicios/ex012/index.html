@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor.</p>
+    <video src="midia/meu-video1.mp4" width="500" controls></video><!-- Jeito mais simples para colocar video-->
+    <!-- width é o tamanho do video que aparece na pagina, nao muda o tamanho do video em megas. -->
+
+
+    <video width="450" poster="../ex011/imagens/foto-p.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/Pexelswebm.webm" type="video/webm">
+        <source src="" type="">
+        <p>Seu computador nao tem compatibilidade com reprodução de videos.</p>
+    </video>
+    <!-- este modelo de colocar video é simplesmente para que todos os navegadores possam acessar seu video em ordem de funcionalidade.-->
+
+    <p>Estas duas formas fara com que o custo do site fique muito alto.</p>
+
+
+    <h1>Inserindo videos do Youtube</h1>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=jB5SpAKeimnIycCb"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+    <h1>Inserindo videos com Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&color=ff0179&portrait=0" width="500" height="281"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>

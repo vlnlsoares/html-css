@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        /* (direção - para ... (to right - to left - to top - to bottom), e as cores.) */
+        /* Para o "to top" tem que fazer uma configuração global na Css sendo: "*{ height: 100% }" */
+
+        * {
+            /* Configurações globais das CSS */
+            height: 100%;
+        }
+
+
+        body {
+            background-image: linear-gradient(to top, #7D0AFF 5%, #BE07ED 25%, #FE03D6 44% );
+            background-attachment: fixed;
+            /* radial-gradient() é um modo tambem. Do tipo circular */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+
+</html>

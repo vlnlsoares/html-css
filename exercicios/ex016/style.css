@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* { /* Configurações Globais */
+    /* height: 100%; */ /* altura */
+    font-family: Arial, Helvetica, sans-serif; /* Estilo fa fonte da letra */
+}
+
+body {
+    background-image: linear-gradient(to right, #F4A9A0, #D9A7EB); /* este faz o Degrade */
+}
+
+main {
+    background-color: white; /* Cor de fundo */
+    border-radius: 10px; /* Os cantos das bordas, neste caso do main. */
+    box-shadow: 10px 10px 5px #785d8257; /* Referente a sombra da main */
+    /* (1º para o lado, 2º para baixo, 3º espalhamento, cor ) */
+    width: 600px; /* Largura */
+    padding: 10px; /* Acolchoamento, as bordas, neste caso dentro de main */
+    margin: auto; /* relacionado a tela */
+}
+
+h1 {
+    color: #666e8d; /* Cor da letra */ 
+    text-align: center; /* Alinhamento de texto */
+    text-shadow: 2px 3px 2px #6f779975; /* Sombra no texto */
+    /* (1º para lateral, 2º para baixo, 3º espalhamento, cor) */
+}
+
+h2 {
+    color: #719279;
+}
+
+p {
+    text-align: justify;
+}

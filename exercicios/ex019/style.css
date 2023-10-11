@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 
+    em HTMl é id    = em CSS é #  (só pode um elemento)
+    em HTML é class = em CSS é .  (pode vários elementos)
+*/
+
+body {
+    background-color: rgb(176, 240, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(34, 194, 29);
+}
+
+h1#principal {
+    /* Essa config. é um Seletor Personalizado */
+    text-align: center;
+    background-color: rgb(34, 194, 29);
+    color: white;
+}
+
+h2 {
+    color: rgb(63, 107, 60);
+}
+
+.basico {
+    color: rgb(17, 255, 0);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(255, 255, 0);
+}
+
+.avancado {
+    color: rgb(255, 0, 0);
+}
+
+.destaque { 
+    background-color: rgba(199, 199, 51, 0.496);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Codigo-Fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascrypt</p>
+    <!-- Otima para testo em códigos.-->
+    <pre><!-- Tag usada para demonstrações de códigos por exemplo. tambem pode ser usada para identificar que o texto ja esta no formato desejado.(aki no VsCode)-->
+        <code><!-- Tag usada para informar que é um codigo (o espaço usado para cada letra é igual, fonte mono espaçada.)-->
+num = int(input('digite um numero'))
+if num %2 == 0:
+    print(f'O numero {num} é PAR')
+else:
+    print(f'O numero {num} é Impar)
+print('fim do programa')
+        </code>
+    </pre>
+    <!-- Shift + Tab= diminui a Tabulação(distancia do canto esquerdo para a direita..)-->
+    <h2>Citações Simples</h2>
+    <P>Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q></P>
+    <!-- Forma nao semantica de indicar uma citação de outra pessoa.-->
+    <h2>Citações Completas</h2>
+    <p>Segundo Mauricio Samy Silva, no seu livro Fundamentos de HTML5 e CSS3:</p>
+    <blockquote
+        cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        A HTML foi criada para ser uma linguagem exclusivamente de marcação e estruturação de conteudos. Isso
+        significaque, segundo seus idealizadores, nao cabe à HTML fornecer informações ao agente do usuário sobre a
+        apresentação dos elementos. Por exemplo: cores de fontes, tamanhoetc...</blockquote>
+    <!-- Visivelmente nada acontece, mas perante direitos autorais é muito importante.-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr
+            title="Cascading Style Sheets">CSS</abbr>. estou adorando!</p><!-- O visual tem que ser alterado no CSS. -->
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTMl</bdo></p>
+    <!-- Tag <bdo> usado para colocar o texto invertido ou normal. -->
+
+</body>
+
+</html>

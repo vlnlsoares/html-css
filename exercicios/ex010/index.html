@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+
+<body>
+
+    <ul>
+        <li>Links: Canal do youtube <a
+                href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+                target="_blank" rel="external">Curso em Video,</a> aula em video deste exercicio:
+            <ol>
+                <li>aula:
+                    <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27"
+                        target="_blank" rel="external">clique aqui.
+                    </a>
+                </li>
+                <li>aula:
+                    <a href="https://www.youtube.com/watch?v=LeLnlT-ZKw8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=28"
+                        target="_blank" rel="external">clique
+                        aqui.
+                    </a>
+                </li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- Somente tentativas acima. os links funcionaram.-->
+    <h1>Usando links externos</h1>
+    <!-- Links externos é um link que vai apontar pra outro site que nao é o nosso site, exemplo abaixo. -->
+    <!-- Tag <a> de ancora(para colocar link url).-->
+    <p>Voçe pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositorio
+            público no GitHub</a></p>
+    <!-- Link externo é recomendado colocar o (target="_blank")Um alvo em branco, nova aba. e o (rel="external")indica que é um link externo, para que possam abrir em outra aba. Assim o seu site nao se perde. -->
+    <p>Voçe tambem pode acessar o meu <a href="https://www.youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito do
+            Youtube.</a>
+    </p><!-- Caso nao faça o link externo fica igual o link acima! -->
+    <!-- Quando o link é dentro do seu proprio site nao abre abas novas. -->
+    <h1>Usando Links Internos</h1>
+    <!-- Ele faz a relação com outra pagina que esta dentro do nosso servidor e diz respeito a nossa pagina -->
+    <!-- Significado de rel="" - relacionamento do conteudo com a semantica do html. -->
+    <p>Esta é a primeira página do site, se voçe quiser, pode acessar tambem a minha <a href="pag002.html" rel="next"
+            target="_self">segunda pagina</a></p>
+    <!-- O atributo rel vem de relationship serve para você dizer qual o relacionamento do arquivo que você quer utilizar com o arquivo atual. Quando você coloca rel="stylesheet", você está dizendo que o arquivo importado é o arquivo responsável pelo estilo da sua página.-->
+    <p>Voçe tambem pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">pagina de
+            noticias</a>
+    </p>
+    <h1>Links para
+        Download</h1>
+    <ul>
+        <li><a href="../ex010/Livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro
+                PDF</a></li>
+        <li><a href="Livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+
+</html>
