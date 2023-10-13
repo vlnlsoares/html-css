@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: gray;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: yellow;
+        }
+
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minha Primeira Tabela</h1>
+    <!-- 
+        Hierarquia de tabela (simples)
+        TABLE = Tabela
+        TABLE ROW = Linha de Tabela
+        TABLE HEADER = Cabeçalho de Tabela
+        TABLE DATA = Dados de Tabela
+     -->
+    <table>
+        <tr><!--Primeira Linha-->
+            <td>A1</td>
+            <td>B1</td> <!--Dados-->
+            <td>C1</td>
+        </tr><!--Segunda Linha-->
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td> <!--Dados-->
+            <td>C2</td>
+        </tr>
+        <tr><!--Terceira Linha-->
+            <td>A3</td>
+            <td>B3</td> <!--Dados-->
+            <td>C3</td>
+        </tr>
+        <tr><!--Quarta Linha-->
+            <td>A4</td>
+            <td class="dado">B4</td> <!--Dados-->
+            <td>C4</td>
+            [teste] ___________________________________________<!--Exemplo de um ERRO-->
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table>
+</body>
+
+</html>
