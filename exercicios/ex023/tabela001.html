@@ -12,6 +12,7 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
@@ -22,6 +23,8 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: middle;
         }
 
         td.dado {
@@ -31,10 +34,16 @@
         th {
             border: 1px solid black;
         }
+
+        .numero {
+            text-align: right;
+        }
     </style>
 </head>
 
+
 <body>
+
     <h1>Minha Primeira Tabela</h1>
     <!-- 
         Hierarquia de tabela (simples)
@@ -49,30 +58,24 @@
             <td>B1</td> <!--Dados-->
             <td>C1</td>
         </tr><!--Segunda Linha-->
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td> <!--Dados-->
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr><!--Terceira Linha-->
             <td>A3</td>
             <td>B3</td> <!--Dados-->
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr><!--Quarta Linha-->
             <td>A4</td>
-            <td class="dado">B4</td> <!--Dados-->
+            <td>B4</td> <!--Dados-->
             <td>C4</td>
             [teste] ___________________________________________<!--Exemplo de um ERRO-->
         </tr>
-        <tr>
-            <td>A5</td>
-            <td>B5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
-        </tr>
     </table>
+
 </body>
 
 </html>
