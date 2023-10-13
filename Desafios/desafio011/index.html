@@ -6,28 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 11</title>
     <style>
-        body {
-            margin: auto;
-            border: 10px solid red;
-           
+        * {
+            margin: 0px;
         }
 
         #fundo {
-            height: 98vh;
-
-            margin: 40px;
-
-            background: white url('./imagens/espaco.jpg') no-repeat fixed center center;
+            background-image: url('./imagens/espaco.jpg');
             background-size: 100% 100%;
-            
-           
-           
 
-           
+            position: relative;
+            height: 98vh;
+            padding: 10px;
+            background-color: purple;
+
+
+
+
         }
 
         #astronauta {
-            height: 200px;
+           
+
+            height: 400px;
+
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
         }
     </style>
 
