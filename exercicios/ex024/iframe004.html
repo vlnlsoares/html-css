@@ -8,15 +8,44 @@
 </head>
 
 <body>
+
     <h1>Meu site Principal</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusamus a nihil illo temporibus assumenda!
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusamus a nihil illo temporibus assumenda!
         Dolores necessitatibus sunt, cumque doloribus molestias ad quo quae harum tenetur, repellendus fugiat, nulla
-        deserunt.</p>
-    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">Seu navegadro não é compativel com isso.</iframe>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis quasi est aspernatur autem sequi labore
+        deserunt.
+    </p>
+
+    <!--configuração para bloquear todo e qualquer acesso que outros sites tente capturar ex: cadastro de pessoas-->
+
+    <!--  sandbox="sandbox"  -->
+
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"><!-- dizendo para este iframe uso de formularios, coisas da mesma origem e script -->
+        Seu navegadro não é compativel com isso.
+    </iframe>
+    <!--
+        outra maneira para deixar mais seguro = politica de referencia
+      
+        referrerpolicy="no-referrer"  
+      
+        elima a captura de dados para envio de propagandas sem autorização.
+    -->
+
+    <!--
+         Para o maximo de segurança:
+          <iframe src="paginas-extras/pag004.html"  sandbox="sandbox"
+            referrerpolicy="no-referrer">
+            Seu navegadro não é compativel com isso.
+            </iframe>
+    -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis quasi est aspernatur autem sequi labore
         possimus quod voluptatibus magnam saepe, ex cupiditate, veritatis sit adipisci, doloribus eaque esse dolores.
     </p>
-    <iframe src="https://www.youtube.com/embed/gQpdDWVdLQM width="680" height="480" allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/gQpdDWVdLQM width=" 680" height="480" allowfullscreen></iframe>
+
 </body>
 
 </html>
